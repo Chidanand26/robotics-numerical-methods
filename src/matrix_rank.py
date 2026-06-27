@@ -1,3 +1,10 @@
+"""Rank of a matrix / dimension of the span of vectors.
+
+Stacks five 5-D vectors into a matrix and computes its rank with
+numpy.linalg.matrix_rank, i.e. the dimension of the subspace they span.
+Run: python src/matrix_rank.py
+"""
+
 import numpy as np
 
 v1 = np.array([1,0,2,1,0])

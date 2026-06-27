@@ -1,3 +1,10 @@
+"""Spring-mass system statics via linear algebra.
+
+Builds the stiffness matrix K for a network of springs (k1..k6) and solves
+K x = b with numpy.linalg.solve to find the nodal displacements x.
+Run: python src/spring_system.py
+"""
+
 import numpy as np
 
 k1=100

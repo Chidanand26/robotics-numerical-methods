@@ -1,3 +1,11 @@
+"""Linear-system solvers: Gaussian elimination and LU decomposition.
+
+Solves an augmented system Ax = b by Gaussian elimination with back
+substitution, then also demonstrates an LU-decomposition solver on a second
+system, printing both sets of solutions.
+Run: python src/gauss_elimination.py
+"""
+
 import numpy as np
 #B=np.array([[2,1,1,10],
 #           [3,2,3,18],

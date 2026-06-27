@@ -1,3 +1,10 @@
+"""Static truss analysis via equilibrium equations.
+
+Sets up the equilibrium coefficient matrix A and load vector b for a simple
+truss joint and solves A f = b with numpy.linalg.solve for the member forces.
+Run: python src/truss_analysis.py
+"""
+
 #Coefficient Matrrix
 import numpy as np
 A=np.array([[0,(4/5),(4/5)],

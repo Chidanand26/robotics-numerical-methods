@@ -1,3 +1,10 @@
+"""Gaussian elimination on an augmented matrix [A | b].
+
+Normalizes each pivot row and eliminates below it, then back-substitutes to
+recover the solution variables (x, y, z, a) of the linear system.
+Run: python src/augmented_matrix.py
+"""
+
 import numpy as np
 #B=np.array([[2,1,1,10],
 #           [3,2,3,18],

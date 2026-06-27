@@ -1,3 +1,11 @@
+"""2R planar robot arm forward kinematics and workspace plot.
+
+Sweeps the two joint angles of a two-link planar arm and uses forward
+kinematics (x = L1*cos(t1) + L2*cos(t1+t2), y = L1*sin(t1) + L2*sin(t1+t2))
+to plot the reachable workspace plus one sample arm configuration.
+Run: python src/robot_2R_arm.py  (opens a Matplotlib window).
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

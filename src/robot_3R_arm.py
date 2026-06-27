@@ -1,3 +1,12 @@
+"""3R planar robot arm: forward kinematics, workspace and Jacobian analysis.
+
+Samples the joint angles (theta1, theta2, theta3) of a three-link planar arm,
+computes the reachable workspace and configuration space (C-space) via forward
+kinematics, then builds the 2x3 Jacobian at a sample pose and finds its null
+space (joint velocities that cause no end-effector motion).
+Run: python src/robot_3R_arm.py  (opens Matplotlib plots, prints null space).
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D

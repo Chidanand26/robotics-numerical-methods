@@ -1,3 +1,11 @@
+"""LU decomposition solver for a linear system Ax = b.
+
+Factors a matrix A into lower (L) and upper (U) triangular matrices via
+Doolittle-style elimination, then solves Ly = b and Ux = y for x.
+Prints L, U and the solution vector x.
+Run: python src/lu_decomposition.py
+"""
+
 import numpy as np
 
 def lu_decompose(A):
